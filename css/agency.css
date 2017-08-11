@@ -4,10 +4,10 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 p {
-  line-height: 1.75; }
+  line-height: 1.25; }
 
 a {
   color: #395EA0; }
@@ -21,14 +21,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
+  font-weight: 600;
+  font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: none; }
 
 section {
   padding: 50px 0; }
   section h2.section-heading {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
@@ -37,7 +37,7 @@ section {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
@@ -69,7 +69,7 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   #mainNav .container {
     padding: 0; }
@@ -84,7 +84,7 @@ body {
       padding: .75em 0;
       letter-spacing: 1px;
       color: white;
-      font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
         color: #A2C7F8; }
@@ -130,13 +130,13 @@ header.masthead {
       font-style: none;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
-      font-weight: 700;
+      font-weight: 600;
       line-height: 50px;
       margin-bottom: 25px;
-      font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
 
 @media (min-width: 768px) {
@@ -148,18 +148,20 @@ header.masthead {
       font-style: none;
       line-height: 40px;
       margin-bottom: 35px;
-      font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
-      font-weight: 700;
+      font-weight: 600;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; } }
 
 .service-heading {
   margin: 15px 0;
-  text-transform: none; }
+  text-transform: uppercase;
+  font-size: 15px;
+   }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -208,7 +210,7 @@ header.masthead {
       font-size: 16px;
       font-style: italic;
       margin: 0;
-      font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #portfolio * {
   z-index: 2; }
@@ -240,7 +242,7 @@ header.masthead {
     font-size: 16px;
     font-style: italic;
     margin: 20px 0 30px;
-    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px; }
@@ -359,7 +361,7 @@ header.masthead {
     margin-top: 0;
     color: inherit; }
     .timeline .timeline-heading h4.subheading {
-      text-transform: none; }
+      text-transform: uppercase; }
   .timeline .timeline-body > p,
   .timeline .timeline-body > ul {
     margin-bottom: 0; }
@@ -429,7 +431,9 @@ header.masthead {
   .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
-    text-transform: none; }
+    text-transform: none;
+    text-transform: uppercase;
+    font-size: 15px; }
   .team-member p {
     margin-top: 0; }
 
@@ -439,14 +443,14 @@ footer {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
-    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   footer ul.quicklinks {
     font-size: 90%;
     line-height: 40px;
     margin-bottom: 0;
     text-transform: none;
-    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
 
 ul.social-buttons {
@@ -471,11 +475,11 @@ ul.social-buttons {
   color: #fed136 !important; }
 
 .btn-primary {
-  font-weight: 700;
+  font-weight: 600;
   color: white;
   border-color: ##395EA0;
   background-color: #fed136;
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-primary:focus, .btn-primary.focus {
     color: white;
@@ -512,13 +516,13 @@ ul.social-buttons {
 
 .btn-xl {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   padding: 10px 20px;
   border-radius: 50px;
   color: white;
   border-color: #A2C7F8;
   background-color: #A2C7F8;
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-xl:focus, .btn-xl.focus {
     color: white;
