@@ -1,0 +1,184 @@
+.navbar-logo img {
+  height: 25px;
+}
+
+.footer-logo img {
+  height: 30px;
+}
+
+.about-icon img {
+  height: 200px;
+}
+
+.about-image img {
+  width: 100%;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+img.centered{
+    display: block;
+    margin: 0 auto;
+}
+
+.about-context {
+  margin: 100px 0 0 0;
+}
+
+.valign {
+  position: relative;
+  transform: translateY(10%);
+}
+
+.footer-link {
+  text-align: right;
+}
+
+
+/*
+Responsive video embed
+https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+*/
+
+.videoWrapper {
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.landing-video video {
+    height: 600px;
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.full {
+    width: 100%;
+}
+
+
+.constrained {
+    width: 100%;
+}
+
+.constrained>.constrained-inner {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 1rem;
+}
+
+nav, section {
+  display: block;
+}
+
+
+.homepage__video video{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+    overflow: hidden;
+    background: #1c1c1c;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    transition: background 0.5s;
+}
+
+.homepage__tagline{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+@media (min-width: 992px) {
+  .homepage__tagline{
+      position: absolute;
+      width: 100%;
+      top: 70%;
+      text-align: center;
+      -webkit-transform: translateY(-100%);
+      -moz-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+      -o-transform: translateY(-100%);
+      transform: translateY(-100%);
+  }
+}
+
+@media (min-width: 992px) {
+  #video {
+    margin-top: 60px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .homepage__tagline{
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      text-align: center;
+      -webkit-transform: translateY(-100%);
+      -moz-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+      -o-transform: translateY(-100%);
+      transform: translateY(-100%);
+  }
+}
+
+@media (min-width: 1350px) {
+  .homepage__tagline{
+      position: absolute;
+      width: 100%;
+      top: 60%;
+      text-align: center;
+      -webkit-transform: translateY(-100%);
+      -moz-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+      -o-transform: translateY(-100%);
+      transform: translateY(-100%);
+  }
+
+  #video {
+    margin-top: 200px;
+  }
+
+}
+
+@media (min-width: 1700px) {
+
+  #video {
+    margin-top: 300px;
+  }
+
+}
+
+.headline-text p{
+  font-weight: bold;
+  font-size: 34px;
+  color: white;
+}
