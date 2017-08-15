@@ -33,9 +33,7 @@ img.centered{
   transform: translateY(10%);
 }
 
-.footer-link {
-  text-align: right;
-}
+
 
 
 /*
@@ -192,5 +190,15 @@ nav, section {
   .team-member img {
     width: 150px;
     height: 150px;}
+  }
+}
+
+.footer-link {
+  text-align: left;
+}
+
+@media only screen and (min-width : 780px) {
+  .footer-link {
+    text-align: right; !important
   }
 }
