@@ -17,6 +17,9 @@
     <script src=“https://use.typekit.net/xko0wks.js“></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+    <!-- AOS animation -->
+    <link rel="stylesheet" href="css/aos.css" />
+
     <!-- stylesheets -->
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/loree.css" rel="stylesheet">
@@ -71,7 +74,7 @@
           <div id="videoBlock">
               <img src="img/hero-image.png" id="videosubstitute" alt="">
               <video preload="preload" autoplay="autoplay" id="vid" loop="loop">
-                  <source src="img/hero-video.webm" type="video/webm"></source>
+                  <!-- <source src="img/hero-video.webm" type="video/webm"></source> -->
                   <source src="img/hero-video.mp4" type="video/mp4"></source>
               </video>
               <div id="videoMessage">
@@ -85,7 +88,7 @@
 
     <!-- Video -->
     <section id="video">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
             <div class="row">
                 <div class="videoWrapper">
                     <!-- Copy & Pasted from YouTube -->
@@ -172,14 +175,23 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <img class="lang-icon" src="img/tech/natural-language-blue.png"
+                    </span>
                     <h4 class="service-heading">Natural Language Understanding</h4>
                     <p class="text-muted">Loree understands and talks to you like a real person. She decodes complex conversations through a series of natural language queries, helping her pick up on subtleties, humor, and emotion.</p>
                 </div>
                 <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <img class="tech-icon" src="img/tech/deep-learning-blue.png"
+                  </span>
                     <h4 class="service-heading">Deep Learning</h4>
                     <p class="text-muted">Loree’s smart. She works through multiple layers of information to understand how concepts relate, allowing her to translate your conversations into relevant themes and stories.</p>
                 </div>
                 <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <img class="tech-icon" src="img/tech/context-blue.png"
+                    </span>
                     <h4 class="service-heading">Context Awareness</h4>
                     <p class="text-muted">The value of information is in it’s context. Loree learns your preferences, what you’ve done, and what you are planning to do so that she can adapt and prepare your child for the days ahead.</p>
                 </div>
@@ -300,6 +312,12 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
 
 </body>
 
