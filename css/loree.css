@@ -65,10 +65,7 @@ https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
     transition: all 0.4s ease-in-out;
 }
 
-video {
-    display: inline-block;
-    vertical-align: baseline;
-}
+
 
 .full {
     width: 100%;
@@ -129,53 +126,7 @@ nav, section {
   }
 }
 
-@media (min-width: 992px) {
-  #video {
-    margin-top: 60px;
-  }
-}
 
-
-@media (min-width: 768px) {
-  .homepage__tagline{
-      position: absolute;
-      width: 100%;
-      top: 50%;
-      text-align: center;
-      -webkit-transform: translateY(-100%);
-      -moz-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
-      -o-transform: translateY(-100%);
-      transform: translateY(-100%);
-  }
-}
-
-@media (min-width: 1350px) {
-  .homepage__tagline{
-      position: absolute;
-      width: 100%;
-      top: 60%;
-      text-align: center;
-      -webkit-transform: translateY(-100%);
-      -moz-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
-      -o-transform: translateY(-100%);
-      transform: translateY(-100%);
-  }
-
-  #video {
-    margin-top: 200px;
-  }
-
-}
-
-@media (min-width: 1700px) {
-
-  #video {
-    margin-top: 300px;
-  }
-
-}
 
 .headline-text p{
   font-weight: 600;
@@ -186,3 +137,48 @@ nav, section {
 .background-blue {
   background-color: #D2E4FF;
 }
+
+#videoDiv {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  width: 100%
+}
+
+#videoDiv video {
+  height: 600px;
+  position: relative;
+}
+
+
+
+#videoBlock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#videoMessage {
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#videoMessage {
+  padding:17em 3em 3em 3em;
+  margin:0
+}
+
+#videoMessage {
+  z-index:88
+}
+
+.videoClick {text-align:center}
+.videoClick a{color:white;background-color:rgba(241, 241, 241, 0.25);font-size: 1.7em;cursor:pointer;cursor:hand}
