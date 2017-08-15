@@ -88,45 +88,6 @@ nav, section {
 }
 
 
-.homepage__video video{
-    position: relative;
-    width: 100%;
-    object-fit: cover;
-    height: 600px;
-    overflow: hidden;
-    background: #1c1c1c;
-    -webkit-transition: background 0.5s;
-    -moz-transition: background 0.5s;
-    transition: background 0.5s;
-}
-
-.homepage__tagline{
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    text-align: center;
-    -webkit-transform: translateY(-100%);
-    -moz-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
-    transform: translateY(-100%);
-}
-
-@media (min-width: 992px) {
-  .homepage__tagline{
-      position: absolute;
-      width: 100%;
-      top: 70%;
-      text-align: center;
-      -webkit-transform: translateY(-100%);
-      -moz-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
-      -o-transform: translateY(-100%);
-      transform: translateY(-100%);
-  }
-}
-
-
 
 .headline-text p{
   font-weight: 600;
@@ -218,4 +179,18 @@ nav, section {
 
 .teamMeet {
   margin-bottom: 75px;
+}
+
+@media only screen and (min-width : 0px) {
+  .team-member img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width : 1280px) {
+  .team-member img {
+    width: 150px;
+    height: 150px;}
+  }
 }
