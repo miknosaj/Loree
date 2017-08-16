@@ -202,3 +202,7 @@ nav, section {
     text-align: right; !important
   }
 }
+
+.cta-button {
+  margin-top: 30px;
+}
