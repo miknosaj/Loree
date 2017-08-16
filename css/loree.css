@@ -101,7 +101,10 @@ nav, section {
   position: relative;
   left: 0px;
   right: 0px;
-  width: 100%
+  width: 100%;
+  background-image: -webkit-linear-gradient( top , transparent, rgba(0, 0, 0, 0.15));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.15));
+  z-index: 150;
 }
 
 
@@ -120,6 +123,9 @@ nav, section {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: -webkit-linear-gradient( top , transparent, rgba(0, 0, 0, 0.15));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.15));
+  z-index: 150;
 }
 
 
@@ -166,10 +172,7 @@ nav, section {
   position: relative;
   left: 0px;
   right: 0px;
-  width: 100%
-  background-image: -webkit-linear-gradient( top , transparent, rgba(0, 0, 0, 0.15));
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.15));
-  z-index: 10;
+  width: 100%;
 
 }
 
