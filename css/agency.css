@@ -4,7 +4,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 p {
   line-height: 1.25; }
@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: none; }
 
 section {
@@ -37,7 +37,7 @@ section {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
@@ -69,7 +69,7 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   #mainNav .container {
     padding: 0; }
@@ -84,7 +84,7 @@ body {
       padding: .75em 0;
       letter-spacing: 1px;
       color: white;
-      font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
         color: #A2C7F8; }
@@ -131,13 +131,13 @@ header.masthead {
       font-style: none;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 600;
       line-height: 50px;
       margin-bottom: 25px;
-      font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
 
 @media (min-width: 768px) {
@@ -149,13 +149,13 @@ header.masthead {
       font-style: none;
       line-height: 40px;
       margin-bottom: 35px;
-      font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 600;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; } }
 
 .service-heading {
@@ -211,7 +211,7 @@ header.masthead {
       font-size: 16px;
       font-style: italic;
       margin: 0;
-      font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #portfolio * {
   z-index: 2; }
@@ -243,7 +243,7 @@ header.masthead {
     font-size: 16px;
     font-style: italic;
     margin: 20px 0 30px;
-    font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif; }
   .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px; }
@@ -443,14 +443,14 @@ footer {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
-    font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   footer ul.quicklinks {
     font-size: 90%;
     line-height: 40px;
     margin-bottom: 0;
     text-transform: none;
-    font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
 
 ul.social-buttons {
@@ -479,7 +479,7 @@ ul.social-buttons {
   color: white;
   border-color: ##395EA0;
   background-color: #fed136;
-  font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-primary:focus, .btn-primary.focus {
     color: white;
@@ -522,7 +522,7 @@ ul.social-buttons {
   color: white;
   border-color: #A2C7F8;
   background-color: #A2C7F8;
-  font-family: 'gibson', 'canada-type-gibson', "Rubik",  'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'gibson', 'canada-type-gibson', "Work Sans",  'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-xl:focus, .btn-xl.focus {
     color: white;
