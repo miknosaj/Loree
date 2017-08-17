@@ -166,6 +166,8 @@ nav, section {
   margin:0
 }
 
+
+
 #videoDiv {
   width: 100%;
   height: 700px;
@@ -188,7 +190,16 @@ nav, section {
 }
 
 
+
 }
+
+@media only screen and (min-width : 1580px) {
+  #videoMessage h1{
+    margin: 0 10em 0 10em;
+  }
+}
+
+
 
 .tech-icon {
   width: 100px;
