@@ -155,7 +155,6 @@ nav, section {
 #vid{display:none}
 
 /* Default display the image to replace the video on all devices */
-#videosubstitute{display:block; width:100%;height:auto}
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 780px) {
